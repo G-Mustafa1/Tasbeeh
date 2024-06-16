@@ -1,0 +1,55 @@
+body{
+   background-color: #000;
+}
+.mein-div{
+   /* height: 100vh; */
+   display: flex;
+   justify-content: center;
+}
+.mein button{
+   background-color: transparent;
+   border: transparent;
+   position: relative;
+   bottom: 50px;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+.mein .btn1{
+   position: relative;
+   right:    20px;
+   border-radius: 50%;
+   padding: 20px;
+   margin-left: 15px;
+   margin-bottom: 80px;
+}
+.mein .btn2{
+    padding: 50px;
+   border-radius: 50%; 
+}
+.mein{
+   display: flex;
+   justify-content: center;
+   padding-top: 200px;
+   padding-right: 60px;
+   align-items: center;
+   background-image: url(img/img-2.png);
+   /* filter: blur(1px); */
+   background-repeat: no-repeat;
+   background-position: center;
+   width: auto;
+   height: 60vh;
+}
+.btn1-div{
+   position: relative;
+   top: 10px;
+   left: 20px;
+}
+.h1-div{
+   position: relative;
+   bottom: 160px;
+   left: 170px;
+}
+.btn2-div{
+   position: relative;
+   bottom: 20px;
+}
